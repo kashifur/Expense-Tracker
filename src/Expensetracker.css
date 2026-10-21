@@ -86,7 +86,7 @@
     padding-top :10px;
 }
 .input1{
-    width: 800px;
+    width: 100%;
  border: 2px solid pink;
     height: 35px;
      border-radius: 5px;
@@ -151,12 +151,13 @@
 }
 .add-transaction {
     margin-left: 0px;
-    padding-left: 400px;
+    text-align: center;
+    padding-left: 0px;
  background-color:aqua;
 
 }
 .H33{
- padding-left: 400px;
+ padding-left: 0px;
  color: red;
  background-color:aquamarine;
 }
@@ -375,4 +376,101 @@ body {
     border: 1px solid black;
     border-radius: 10px;
 
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .box1,
+  .box2 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .input1,
+  input {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .add-transaction {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.balance {
+    text-align: left;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+/* Mobile responsive fixes */
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        gap: 12px;
+    }
+
+    .box1,
+    .box2 {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+        min-height: 150px;
+    }
+
+    .balance {
+        display: block;
+        visibility: visible;
+        height: auto;
+        margin: 10px 0;
+        padding: 10px;
+        overflow: visible;
+    }
+
+    .input1,
+    .history input {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .add-transaction,
+    .H33 {
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+    .history,
+    .history ul,
+    .list,
+    .list li,
+    .transaction {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .history ul {
+        
+        padding: 10px;
+    }
+
+    .list li,
+    .transaction {
+        flex-wrap: wrap;
+        overflow-wrap: anywhere;
+        gap: 10px;
+    }
 }
