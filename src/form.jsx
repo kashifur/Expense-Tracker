@@ -45,7 +45,7 @@ setinput({
     
 <input placeholder="Enter amount..." className="input1" name="Amount"  value={input.Amount} onChange={handlechange} required/>
 </div>
-<br></br><br></br>
+<br></br>
 <button className="button" type="submit">Add transaction</button>
 
 
