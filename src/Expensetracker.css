@@ -397,4 +397,6 @@ body {
 }
  .history ul{
     background-color: red;
+    border: 5px solid white;
+    border-radius: 20px;
  }
