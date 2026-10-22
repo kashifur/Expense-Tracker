@@ -14,7 +14,6 @@ export default function History({transactions,onDelete}){
    <div className="history">
     <br></br>
     <h3 className="H33"><i>History</i></h3>
-    <div className="transaction">
     <ul className="list">
         {transactions.map((transaction, index) => (
                     <li
@@ -44,7 +43,7 @@ export default function History({transactions,onDelete}){
                 ))}
     </ul>
     </div>
-</div>
+
 
 
     )

@@ -14,7 +14,7 @@ export default function Expense({ transactions }) {
     const balance = income - expense;
 
     return (
-        <div style={{ backgroundColor: "whitesmoke" }}>
+        <div style={{ backgroundColor: "whitesmoke" }} className="expense-wrapper">
             <h2><b>Expense Tracker</b></h2>
 
             <div className="balance">
