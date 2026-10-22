@@ -19,7 +19,7 @@ export default function Expense({ transactions }) {
 
             <div className="balance">
                 <h4 className="H4"><b>CURRENT BALANCE</b></h4>
-                <h2>₹{balance.toLocaleString("en-IN")}</h2>
+                <h2  className="balance-amount">₹{balance.toLocaleString("en-IN")}</h2>
             </div>
 
             <div className="container">
