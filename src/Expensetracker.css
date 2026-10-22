@@ -378,3 +378,20 @@ body {
         font-size: 14px;
     }
 }
+
+
+.balance .balance-amount {
+    display: block !important;
+    color: black !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    font-size: 28px !important;
+    line-height: 1.5 !important;
+    min-height: 42px !important;
+    height: auto !important;
+    margin: 10px 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    z-index: 10 !important;
+    overflow: visible !important;
+}
