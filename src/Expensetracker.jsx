@@ -15,7 +15,7 @@ export default function Expense({ transactions }) {
 
     return (
         <div style={{ backgroundColor: "whitesmoke" }} className="expense-wrapper">
-            <h2><b>Expense Tracker</b></h2>
+            <h2 className="expense-title"><b>Expense Tracker</b></h2>
 
             <div className="balance">
                 <h4 className="H4"><b>CURRENT BALANCE</b></h4>
